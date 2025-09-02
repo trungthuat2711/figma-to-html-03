@@ -410,7 +410,7 @@ a{
 
 /* ============================== TEAM ============================== */
 .team{
-    padding: 85px;
+    padding: 85px 0;
 }
 
 .team__header{
@@ -470,3 +470,47 @@ a{
     justify-content: center;
 }
 
+/* ============================== INSTALL MOBILE ============================== */
+.install{
+    margin: 180px 0 85px;
+}
+
+.install__inner{
+    height: 427px;
+    border-radius: 4px;
+    background: #2E80CE;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+    position: relative;
+}
+
+.install__img{
+    width: 284px;
+    height: 522px;
+    object-fit: cover;
+    position: absolute;
+    bottom: 0;
+}
+
+.install__content{
+    max-width: 586px;
+}
+
+.install__heading{
+    color: #FFF;
+    max-width: 489px;
+}
+
+.install__desc{
+    color: #FFF;
+    max-width: 586px;
+}
+
+.install__row{
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
