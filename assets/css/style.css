@@ -16,6 +16,11 @@ body{
 }
 
 /* ============================== COMMON ============================== */
+input,textarea,select,button{
+    font-family: inherit;
+    font-size: inherit;
+}
+
 .container{
     width: 1170px;
     max-width: calc(100% - 48px);
@@ -619,7 +624,7 @@ a{
 
 /* ============================== APPOINTMENT ============================== */
 .appointment{
-    margin: 85px 0;
+    margin-top: 85px;
     background-color: #FFF;
 }
 .appointment__inner{
@@ -645,3 +650,137 @@ a{
 .appointment__btn{
     margin-top: 38px;
 }
+
+/* ============================== FOOTER ============================== */
+.footer{
+    margin-top: 170px;
+    padding-top: 100px;
+    background-color: #10375C;
+    font-family: "Open Sans",sans-serif;
+}
+
+.footer__top{
+    display: grid;
+    grid-template-columns: 1fr repeat(2,0.4fr) 1fr;
+    column-gap: 78px;
+}
+
+.footer__desc{
+    margin-top: 21px;
+    color: #A9B3BB;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+.footer__heading{
+    color: #FFF;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75;
+}
+
+.footer__list{
+    margin: 20px 0 28px;
+}
+
+.footer__link{
+    color: #A9B3BB;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.86;
+    white-space: nowrap;  /*không xuống hàng*/
+}
+
+.footer__link:hover{
+    text-decoration: underline;
+}
+
+.footer__item{
+    margin-bottom: 10px;
+}
+
+.footer__social{
+    margin: 20px 0 28px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer__social-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    background-color: #FFF;
+    border-radius: 50%;
+    color: #2E80CE;
+    transition: 0.25s;
+}
+
+.footer__social-btn:hover{
+    background-color: #2E80CE;
+    color: #FFF;
+}
+
+.footer-form{
+    margin-top: 10px;
+    display: flex;
+    gap: 12px;
+}
+
+.footer-form__input{
+    width: 212px;
+    height: 46px;
+    background-color: transparent;
+    border: 1px solid #406181;
+    border-radius: 4px;
+    outline: none;
+    color: #FFF;
+}
+
+.footer-form__input::placeholder{
+    color: #9CA8B1;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.86;
+}
+
+.footer-form__submit{
+    width: 108px;
+    height: 46px;
+    border-radius: 4px;
+    background: #2E80CE;
+    color: #FFF;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.86;
+    border: none;
+}
+
+.footer-form__submit:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.footer__copyright{
+    border-top: 1px solid #406181;
+    padding: 28px 0 42px;
+}
+
+.footer__copyright-text{
+    color: #AAB3BA;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.86;
+}
+
+
+
+
+
+
+
+
