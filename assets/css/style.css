@@ -617,4 +617,31 @@ a{
     color: #2E80CE;
 }
 
+/* ============================== APPOINTMENT ============================== */
+.appointment{
+    margin: 85px 0;
+    background-color: #FFF;
+}
+.appointment__inner{
+    padding: 100px 178px;
+    background-color: #F6FBFF;
+    text-align: center;
+}
 
+.appointment__heading::after{
+    content: "";
+    display: block;
+    width: 136px;
+    height: 2px;
+    background-color: #2E80CE;
+    margin: 18px auto 0;
+}
+
+.appointment__desc{
+    max-width: 617px;
+    margin: 18px auto 0;
+}
+
+.appointment__btn{
+    margin-top: 38px;
+}
